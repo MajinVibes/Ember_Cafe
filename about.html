@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us — EMBER Café | Our Story, Values & Craft</title>
+  <meta name="description" content="Discover the story behind EMBER Café: our dedication to coffee craftsmanship, warm community spaces, and timeless hospitality.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Demo Notice Banner -->
+  <div class="demo-banner">
+    <span class="badge">Fictional Demo</span>
+    <span>EMBER Café is a demonstration website. All menu items (in ₹), hours, and reservation enquiries are simulated.</span>
+  </div>
+
+  <!-- Header / Navigation -->
+  <header class="site-header">
+    <div class="container navbar">
+      <a href="index.html" class="logo" aria-label="EMBER Café Home">
+        <svg class="logo-icon-svg" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M20 3H4v10c0 2.21 1.79 4 4 4h6c2.21 0 4-1.79 4-4v-3h2c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 5h-2V5h2v3zM4 19h16v2H4z"/>
+        </svg>
+        <div class="logo-text">
+          <span class="logo-title">EMBER</span>
+          <span class="logo-sub">Café</span>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation Links -->
+      <nav aria-label="Main Navigation">
+        <ul class="nav-links">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="menu.html" class="nav-link">Menu</a></li>
+          <li><a href="about.html" class="nav-link active">About</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Action Button & Mobile Toggle -->
+      <div class="header-actions">
+        <button class="btn btn-outline" data-open-modal="reservation">Reserve a Table</button>
+        <button class="mobile-menu-toggle" aria-label="Open Navigation Menu">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Page Hero Banner -->
+    <section class="page-hero">
+      <div class="container">
+        <span class="section-tag">ABOUT EMBER</span>
+        <h1 class="page-hero-title">More than just coffee.</h1>
+        <p class="page-hero-sub">Founded on a love for thoughtful roasting, warm interiors, and everyday moments of calm.</p>
+      </div>
+    </section>
+
+    <!-- Café Story Section -->
+    <section class="about-story-section">
+      <div class="container">
+        <div class="about-story-grid">
+          <div class="story-content">
+            <span class="section-tag">OUR JOURNEY</span>
+            <h2>A sanctuary for coffee lovers & creators.</h2>
+            <p>
+              EMBER Café began with a simple desire: to build a neighborhood space where the aroma of freshly ground beans, the warmth of reclaimed wood, and the gentle rhythm of jazz create an escape from the city’s rush.
+            </p>
+            <p>
+              Every morning before the first guests step through our doors, our baristas dial in the espresso grinders, calibrating pressure and temperature to highlight each bean's sweet caramel and floral notes. 
+            </p>
+            <p>
+              Whether you are settling in with a journal, catching up with an old friend over cappuccinos, or meeting colleagues for an afternoon brainstorming session, EMBER is shaped to feel like your second home.
+            </p>
+            <div style="margin-top: 2rem;">
+              <a href="menu.html" class="btn btn-cream">Explore What We Brew</a>
+            </div>
+          </div>
+
+          <div class="story-image-stack">
+            <img 
+              src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=900&q=80" 
+              alt="EMBER Café spacious seating and interior" 
+              class="story-main-img"
+              loading="lazy"
+            >
+            <div class="story-badge">
+              <span class="story-badge-num">Est.</span>
+              <span class="story-badge-label">EMBER CAFÉ</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Interior Photographs Gallery -->
+    <section class="gallery-section" style="background-color: rgba(36, 26, 22, 0.3);">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">INSIDE EMBER</span>
+          <h2 class="section-title">Interior Photographs</h2>
+          <p class="section-description">A curated look at our seating corners, espresso bar, and relaxing atmosphere.</p>
+        </div>
+
+        <div class="gallery-grid">
+          <div class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=600&q=80" alt="Main dining area with natural light" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-caption">Main Lounge & Seating</span>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1442512595331-e89e73853f31?auto=format&fit=crop&w=600&q=80" alt="Quiet window nook for reading" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-caption">Quiet Window Workspaces</span>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1521017432531-fbd92d768814?auto=format&fit=crop&w=600&q=80" alt="Timber storefront and sign" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-caption">Warm Wood Facade</span>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1509785307050-d4066910ec1e?auto=format&fit=crop&w=600&q=80" alt="Barista station espresso pull" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-caption">Artisan Barista Station</span>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&w=600&q=80" alt="Pastry display case" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-caption">Daily Pastry Display</span>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=600&q=80" alt="Coffee cup with latte art on saucer" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-caption">Signature Brew Experience</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Our Values Section (Realistic & Honest, No Unverified Claims) -->
+    <section class="values-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">PHILOSOPHY</span>
+          <h2 class="section-title">Our Values</h2>
+          <p class="section-description">The four guiding principles that shape how we roast, brew, and welcome every guest.</p>
+        </div>
+
+        <div class="values-grid">
+          <!-- Value 1 -->
+          <div class="value-card">
+            <div class="value-icon-box">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10"></circle>
+                <path d="M12 6v6l4 2"></path>
+              </svg>
+            </div>
+            <h3 class="value-title">Artisanal Sourcing</h3>
+            <p class="value-desc">We select specialty Arabica beans from renowned coffee estates, chosen for distinct floral and chocolaty taste notes.</p>
+          </div>
+
+          <!-- Value 2 -->
+          <div class="value-card">
+            <div class="value-icon-box">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+              </svg>
+            </div>
+            <h3 class="value-title">Precision Roasting</h3>
+            <p class="value-desc">Roasting in controlled small batches lets us monitor bean development and lock in rich aroma with balanced acidity.</p>
+          </div>
+
+          <!-- Value 3 -->
+          <div class="value-card">
+            <div class="value-icon-box">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                <circle cx="9" cy="7" r="4"></circle>
+                <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+              </svg>
+            </div>
+            <h3 class="value-title">Warm Community</h3>
+            <p class="value-desc">A café is ultimately about the people inside it. We foster an inclusive, unhurried space where everyone is greeted with a smile.</p>
+          </div>
+
+          <!-- Value 4 -->
+          <div class="value-card">
+            <div class="value-icon-box">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z"></path>
+                <line x1="4" y1="22" x2="4" y2="15"></line>
+              </svg>
+            </div>
+            <h3 class="value-title">Mindful Craft</h3>
+            <p class="value-desc">From calibrated water filtration to patient milk steaming, every cup receives full attention from our trained baristas.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- What Makes the Café Special ("Why Choose Us") -->
+    <section class="features-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">WHY CHOOSE US</span>
+          <h2 class="section-title">What Makes EMBER Special</h2>
+          <p class="section-description">Thoughtful details that make your coffee experience distinctive.</p>
+        </div>
+
+        <div class="features-grid">
+          <!-- Feature 1 -->
+          <div class="feature-box">
+            <h4>Bespoke House Roasts</h4>
+            <p>Our custom signature blend pairs notes of roasted hazelnut with dark cocoa and smooth honey finish, created specifically for milk drinks and bold filter cups.</p>
+          </div>
+
+          <!-- Feature 2 -->
+          <div class="feature-box">
+            <h4>Acoustic Harmony</h4>
+            <p>We designed our acoustics with soft textiles and warm timber panels, providing a tranquil background for deep conversations or quiet laptop focus.</p>
+          </div>
+
+          <!-- Feature 3 -->
+          <div class="feature-box">
+            <h4>Oven-Fresh Pairings</h4>
+            <p>Our croissants and desserts are baked fresh each morning, giving you the crisp butter crunch and rich chocolate indulgence you deserve.</p>
+          </div>
+        </div>
+
+        <div style="text-align: center; margin-top: 3.5rem;">
+          <button class="btn btn-cream" data-open-modal="reservation">Plan Your Visit (Demo Enquiry)</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Col 1: Brand -->
+        <div class="footer-col">
+          <div class="logo" style="margin-bottom: 1rem;">
+            <svg class="logo-icon-svg" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M20 3H4v10c0 2.21 1.79 4 4 4h6c2.21 0 4-1.79 4-4v-3h2c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 5h-2V5h2v3zM4 19h16v2H4z"/>
+            </svg>
+            <div class="logo-text">
+              <span class="logo-title">EMBER</span>
+              <span class="logo-sub">Café</span>
+            </div>
+          </div>
+          <p style="color: var(--color-text-light-muted); font-size: 0.9rem; line-height: 1.6;">
+            Coffee · Food · Community
+          </p>
+          <p style="color: var(--color-accent-light); font-size: 0.8rem; margin-top: 0.75rem;">
+            A fictional artisanal café sanctuary crafted for coffee devotees and warm conversations.
+          </p>
+        </div>
+
+        <!-- Col 2: Quick Links -->
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 3: Opening Hours -->
+        <div class="footer-col">
+          <h4>Opening Hours</h4>
+          <div class="footer-hours-list">
+            <div class="footer-hours-item">
+              <span>Mon – Fri:</span><br>
+              <strong>7:00 AM – 10:00 PM</strong>
+            </div>
+            <div class="footer-hours-item" style="margin-top: 0.5rem;">
+              <span>Sat – Sun:</span><br>
+              <strong>8:00 AM – 11:00 PM</strong>
+            </div>
+          </div>
+        </div>
+
+        <!-- Col 4: Newsletter -->
+        <div class="footer-col">
+          <h4>Subscribe to our newsletter</h4>
+          <p style="font-size: 0.85rem; color: var(--color-text-light-muted);">
+            Receive seasonal drink announcements and cafe updates.
+          </p>
+          <form class="newsletter-form">
+            <input type="email" placeholder="Your email address" class="newsletter-input" required>
+            <button type="submit" class="newsletter-btn" aria-label="Subscribe">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </button>
+          </form>
+
+          <div class="footer-social-icons">
+            <a href="#" class="social-link" aria-label="Instagram">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+              </svg>
+            </a>
+            <a href="#" class="social-link" aria-label="YouTube">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"></path>
+                <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon>
+              </svg>
+            </a>
+            <a href="#" class="social-link" aria-label="X (Twitter)">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+              </svg>
+            </a>
+            <a href="#" class="social-link" aria-label="Pinterest">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="12" y1="9" x2="12" y2="15"></line>
+                <circle cx="12" cy="12" r="10"></circle>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <span>© 2026 EMBER Café. Clearly fictional demonstration website.</span>
+        <span>Crafted for portfolio presentation · Playfair Display & Poppins</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Global Reservation Enquiry Modal (Demo Mode) -->
+  <div class="modal-overlay" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <div class="modal-card">
+      <button class="modal-close-btn" data-close-modal aria-label="Close dialog">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+
+      <span class="section-tag" style="color: var(--color-accent-light);">RESERVATION ENQUIRY</span>
+      <h3 id="modal-title" class="modal-title">Book a Table (Demo)</h3>
+      <div class="form-demo-badge">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="10"></circle>
+          <line x1="12" y1="8" x2="12" y2="12"></line>
+          <line x1="12" y1="16" x2="12.01" y2="16"></line>
+        </svg>
+        <span>Demo Enquiry Mode: Submissions simulate a reservation check.</span>
+      </div>
+
+      <form id="reservation-form">
+        <div class="modal-grid-2">
+          <div class="form-group">
+            <label class="form-label">Full Name</label>
+            <input type="text" name="name" class="form-input" placeholder="e.g. Maya Sharma" required>
+          </div>
+          <div class="form-group">
+            <label class="form-label">Phone (Fictional)</label>
+            <input type="tel" name="phone" class="form-input" placeholder="+91 98000 00000" required>
+          </div>
+        </div>
+
+        <div class="modal-grid-2">
+          <div class="form-group">
+            <label class="form-label">Number of Guests</label>
+            <select name="guests" class="form-select" required>
+              <option value="1 Guest">1 Guest</option>
+              <option value="2 Guests" selected>2 Guests</option>
+              <option value="3-4 Guests">3-4 Guests</option>
+              <option value="5+ Guests">5+ Guests (Party)</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label class="form-label">Seating Preference</label>
+            <select name="seating" class="form-select">
+              <option value="Window Seat">Window Seat</option>
+              <option value="Cozy Corner">Quiet Cozy Corner</option>
+              <option value="Barista Bar">Barista Bar Counter</option>
+              <option value="Outdoor Patio">Patio / Veranda</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="modal-grid-2">
+          <div class="form-group">
+            <label class="form-label">Date</label>
+            <input type="date" name="date" class="form-input" required>
+          </div>
+          <div class="form-group">
+            <label class="form-label">Preferred Time</label>
+            <select name="time" class="form-select" required>
+              <option value="8:00 AM">8:00 AM - Morning Brew</option>
+              <option value="11:30 AM">11:30 AM - Brunch</option>
+              <option value="3:30 PM">3:30 PM - Afternoon Tea</option>
+              <option value="7:00 PM" selected>7:00 PM - Evening Chill</option>
+              <option value="9:00 PM">9:00 PM - Night Roasts</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label">Special Requests (Optional)</label>
+          <textarea name="notes" class="form-textarea" placeholder="Celebrations, dietary preferences, or quiet working corner..." style="min-height: 80px;"></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-cream" style="width: 100%;">
+          Submit Reservation Enquiry (Demo)
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Mobile Drawer Menu -->
+  <div class="drawer-overlay"></div>
+  <aside class="mobile-drawer" aria-label="Mobile Navigation Drawer">
+    <div class="drawer-header">
+      <div class="logo">
+        <span class="logo-title" style="font-size: 1.2rem;">EMBER Café</span>
+      </div>
+      <button class="drawer-close-btn" style="background:none; border:none; color:var(--color-cream); cursor:pointer;">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+    </div>
+    <ul class="drawer-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="menu.html">Menu</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <div style="margin-top: auto;">
+      <button class="btn btn-cream" data-open-modal="reservation" style="width: 100%;">Reserve a Table</button>
+    </div>
+  </aside>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
